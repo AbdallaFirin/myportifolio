@@ -1,5 +1,45 @@
-# Vue 3 + Vite
+# Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern, professional single-page portfolio website showcasing my work as a Full Stack Developer.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 About This Project
+
+This is my personal portfolio website built to showcase my skills, projects, and experience. The site features a clean, modern design with smooth animations and a fully responsive layout.
+
+## 🛠️ Built With
+
+- **Vue 3** - Progressive JavaScript framework
+- **Vite** - Next-generation frontend tooling
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide Icons** - Beautiful icon library
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/AbdallaFirin/Portifolio.git
+
+# Navigate to project directory
+cd Portifolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📱 Contact
+
+- **Email**: firintech3@gmail.com
+- **Phone**: +252907024306
+- **Location**: Puntland, Somalia
+- **GitHub**: [@AbdallaFirin](https://github.com/AbdallaFirin)
+- **LinkedIn**: [Abdalla Firin Said](https://www.linkedin.com/in/abdalla-firin-said-b1653b219/)
+
+---
+
+**Built with ❤️ by Abdalla Firin**
