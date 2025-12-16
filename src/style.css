@@ -6,7 +6,8 @@
   }
 
   body {
-    @apply bg-slate-900 text-slate-100 font-sans antialiased;
+    @apply text-slate-100 font-sans antialiased;
+    background: #2B4593;
   }
 }
 

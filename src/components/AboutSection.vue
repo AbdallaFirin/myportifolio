@@ -14,17 +14,16 @@ const skills = [
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
 
-
                 <div class="w-full md:w-1/2">
                     <h2 class="text-3xl font-bold mb-6 text-white">About Me</h2>
                     <p class="text-slate-400 mb-4 leading-relaxed">
-                        I’m a dedicated Full Stack Developer with a strong focus on creating clean, efficient, and
+                        I'm a dedicated Full Stack Developer with a strong focus on creating clean, efficient, and
                         user-friendly web applications. I work with technologies such as JavaScript, PHP, Laravel,
-                        Python, React, Node.js, MySQL, and Express, and I’m especially passionate about building
+                        Python, React, Node.js, MySQL, and Express, and I'm especially passionate about building
                         powerful backend systems using Laravel.
                     </p>
                     <p class="text-slate-400 mb-4 leading-relaxed">
-                        Alongside development, I’ve also built skills in digital marketing — including Facebook
+                        Alongside development, I've also built skills in digital marketing — including Facebook
                         marketing, email marketing, and content creation. This combination of technical and marketing
                         experience helps me build solutions that are not only functional but also impactful and
                         user-oriented.
@@ -43,13 +42,11 @@ const skills = [
                         </div>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2">
                     <div class="relative">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl blur opacity-20 transform rotate-3">
-                        </div>
                         <img :src="profileImage" alt="Profile"
-                            class="relative rounded-2xl shadow-2xl w-full max-w-md mx-auto grayscale hover:grayscale-0 transition-all duration-500" />
+                            class="w-full max-w-md mx-auto shadow-lg hover:grayscale hover:scale-105 transition-all duration-500" />
                     </div>
                 </div>
             </div>

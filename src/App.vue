@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import ContactSection from './components/ContactSection.vue';
+import logoImage from './assets/image/Logo.jpeg';
 
 const isMenuOpen = ref(false);
 const isScrolled = ref(false);
@@ -30,14 +31,14 @@ const navLinks = [
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-900 text-slate-100 selection:bg-indigo-500/30">
+  <div class="min-h-screen text-slate-100 selection:bg-indigo-500/30">
     <!-- Navbar -->
     <nav
       :class="['fixed top-0 w-full z-50 transition-all duration-300', isScrolled ? 'glass-nav py-4' : 'bg-transparent py-6']">
       <div class="container mx-auto px-6 flex justify-between items-center">
-        <a href="#"
-          class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
-          FirinTec.
+        <a href="#" class="flex items-center">
+          <img :src="logoImage" alt="FirinTec Logo"
+            class="h-12 w-12 rounded-full object-cover border-2 border-indigo-500/30 hover:border-indigo-500 transition-all duration-300" />
         </a>
 
         <!-- Desktop Menu -->

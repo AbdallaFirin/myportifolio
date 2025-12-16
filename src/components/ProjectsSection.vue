@@ -17,6 +17,14 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
     link: 'https://github.com/AbdallaFirin/CourseTraning-Website',
     github: 'https://github.com/AbdallaFirin/CourseTraning-Website'
+  },
+  {
+    title: 'Course Training Website',
+    desc: 'A platform for online course training and education.',
+    tags: ['Web Dev', 'Education', 'Frontend'],
+    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    link: 'https://github.com/AbdallaFirin/CourseTraning-Website',
+    github: 'https://github.com/AbdallaFirin/CourseTraning-Website'
   }
 ];
 </script>
@@ -37,7 +45,6 @@ const projects = [
             <img :src="project.image" :alt="project.title"
               class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
           </div>
-
           <div class="p-6">
             <div class="flex gap-2 mb-4">
               <span v-for="tag in project.tags" :key="tag"
