@@ -47,20 +47,20 @@ import { Mail, MapPin, Phone } from 'lucide-vue-next';
             </div>
           </div>
 
-          <form class="space-y-4" @submit.prevent>
+          <form class="space-y-4" action="https://formspree.io/f/mpwvgydz" method="POST">
             <div>
-              <input type="text" placeholder="Your Name"
+              <input type="text" name="name" placeholder="Your Name" required
                 class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:border-indigo-500 text-white placeholder-slate-500 transition-colors" />
             </div>
             <div>
-              <input type="email" placeholder="Your Email"
+              <input type="email" name="email" placeholder="Your Email" required
                 class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:border-indigo-500 text-white placeholder-slate-500 transition-colors" />
             </div>
             <div>
-              <textarea rows="4" placeholder="Your Message"
+              <textarea rows="4" name="message" placeholder="Your Message" required
                 class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:border-indigo-500 text-white placeholder-slate-500 transition-colors"></textarea>
             </div>
-            <button
+            <button type="submit"
               class="w-full px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition-colors">
               Send Message
             </button>
